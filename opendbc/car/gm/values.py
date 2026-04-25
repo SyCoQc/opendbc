@@ -115,6 +115,10 @@ class GMSDGMPlatformConfig(GMPlatformConfig):
 
 
 class CAR(Platforms):
+  BUICK_ENVISTA = GMASCMPlatformConfig(
+    [GMCarDocs("Buick Envista 2024")],
+    GMCarSpecs(mass=1836, wheelbase=2.700000047683716, steerRatio=13.0, centerToFrontRatio=1.350000023841858, tireStiffnessFactor=1.0),
+  )
   HOLDEN_ASTRA = GMASCMPlatformConfig(
     [GMCarDocs("Holden Astra 2017")],
     GMCarSpecs(mass=1363, wheelbase=2.662, steerRatio=15.7, centerToFrontRatio=0.4),
